@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Zikirmatik - Tasbeeh App</string>
-    <string name="high_score">High Score</string>
+    <string name="high_score">Skor</string>
     <string name="Sübhanallah">Sübhanallah</string>
     <string name="Elhamdülillah">Elhamdülillah</string>
     <string name="Allahu_ekber">Allahu ekber</string>

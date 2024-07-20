@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             rButton.setOnClickListener {
                 count = 0
                 value = 1
-                textArabic.text = "Sübhanallah"
+                textArabic.text = getString(R.string.Sübhanallah)
                 numberText.text = count.toString()
 
 
@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
                 value++
 
                 when (value) {
-                    1 -> textArabic.text = "Sübhanallah"
-                    33 -> textArabic.text = "Elhamdülillah"
-                    66 -> textArabic.text = "Allahu ekber"
+                    1 -> textArabic.text =getString(R.string.Sübhanallah)
+                    33 -> textArabic.text = getString(R.string.Elhamdülillah)
+                    66 -> textArabic.text = getString(R.string.Allahu_ekber)
                     100 -> value = 0
                 }
 

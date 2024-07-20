@@ -32,7 +32,7 @@
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:text="High Score :" />
+                android:text="@string/high_score" />
 
             <TextView
                 android:id="@+id/highScore"
@@ -60,7 +60,7 @@
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:text="Sübhanallah" />
+                android:text="@string/Sübhanallah" />
         </LinearLayout>
 
         <LinearLayout
