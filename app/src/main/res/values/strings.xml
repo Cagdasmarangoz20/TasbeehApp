@@ -4,4 +4,6 @@
     <string name="Sübhanallah">Sübhanallah</string>
     <string name="Elhamdülillah">Elhamdülillah</string>
     <string name="Allahu_ekber">Allahu ekber</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

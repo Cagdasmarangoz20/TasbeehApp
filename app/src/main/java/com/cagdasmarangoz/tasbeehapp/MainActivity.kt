@@ -3,8 +3,13 @@ package com.cagdasmarangoz.tasbeehapp
 import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.cagdasmarangoz.tasbeehapp.databinding.ActivityMainBinding
+import com.cagdasmarangoz.tasbeehapp.ui.AboutFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -64,6 +69,7 @@ class MainActivity : AppCompatActivity() {
         loadData()
     }
 
+
     private fun saveData(value:String) {
         val sharedPreferences = getSharedPreferences("sharedpref", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
@@ -76,5 +82,23 @@ class MainActivity : AppCompatActivity() {
         val saveScore = sharedPreferences.getString("STRING_KEY", null)
         binding.highScore.text = saveScore.toString()
 
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.nav_menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.aboutid -> replaceFragment(AboutFragment())
+        }
+        return super.onOptionsItemSelected(item)
+    }
+    private fun replaceFragment(fragment: Fragment){
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.frag,fragment)
+            .commit()
     }
 }
