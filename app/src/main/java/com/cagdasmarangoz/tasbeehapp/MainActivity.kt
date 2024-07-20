@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     var count = 0
     var highScorer = 0
     var mediaPlayer: MediaPlayer? = null
-
+    var value=0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -23,7 +23,24 @@ class MainActivity : AppCompatActivity() {
          highScorer = saveScore!!.toInt()
 
             highScore.text = highScorer.toString()
+            rButton.setOnClickListener {
+                count = 0
+                value = 1
+                textArabic.text = "Sübhanallah"
+                numberText.text = count.toString()
+
+
+            }
             pushButton.setOnClickListener {
+
+                value++
+
+                when (value) {
+                    1 -> textArabic.text = "Sübhanallah"
+                    33 -> textArabic.text = "Elhamdülillah"
+                    66 -> textArabic.text = "Allahu ekber"
+                    100 -> value = 0
+                }
 
                 count++
                 mediaPlayer = MediaPlayer.create(this@MainActivity, R.raw.alert)
@@ -40,12 +57,7 @@ class MainActivity : AppCompatActivity() {
             }
 
 
-            rButton.setOnClickListener {
-                count = 0
-                numberText.text = count.toString()
 
-
-        }
 
     }
 
