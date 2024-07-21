@@ -5,4 +5,12 @@
     <string name="Sübhanallah">سُبْحَانَ ٱللَّٰهُ</string>
     <string name="Elhamdülillah">ٱلْحَمْدُ لِلَّٰهِ</string>
     <string name="Allahu_ekber">ٱللَّٰهُ أَكْبَرُ</string>
+    <string name="about">عن التطبيق</string>
+    <string name="about_description">تطبيق زكريماتيك هو أداة عملية تساعد المستخدمين على عد أذكارهم. بواجهة بسيطة ومفيدة، يمكنك تتبع أذكارك عن طريق زيادة العداد مع كل ذكر. يهدف زكريماتيك إلى دعم حياتك الروحية وجعل عبادتك أكثر تنظيماً.</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="e_mail">ranax.tec@gmail.com</string>
+    <string name="ideas">يمكنك إرسال أفكارك واقتراحاتك وشكاويك إلينا</string>
+    <string name="version">الإصدار</string>
+    <string name="developer">المطور</string>
+    <string name="developed">تم تطويره من قبل تقنية راناكس</string>
 </resources>

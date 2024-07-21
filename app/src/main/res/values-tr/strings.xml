@@ -5,4 +5,13 @@
     <string name="Sübhanallah">Sübhanallah</string>
     <string name="Elhamdülillah">Elhamdülillah</string>
     <string name="Allahu_ekber">Allahu ekber</string>
+
+    <string name="about">Uygulama Hakkında</string>
+    <string name="about_description">Zikirmatik uygulaması, kullanıcıların zikirlerini saymalarına yardımcı olan pratik bir araçtır. Basit ve kullanışlı arayüzü ile her zikir çekişinizde sayacı artırarak zikirlerinizi takip edebilirsiniz. Zikirmatik, manevi hayatınızı desteklemeyi ve ibadetlerinizi daha düzenli yapmanızı amaçlar.</string>
+    <string name="contact_us">İletişim</string>
+    <string name="e_mail">ranax.tec@gmail.com</string>
+    <string name="ideas">Fikir, öneri ve şikayetlerinizi bize iletebilirsiniz</string>
+    <string name="version">Sürüm</string>
+    <string name="developer">Geliştirici</string>
+    <string name="developed">Ranax Teknoloji tarafından geliştirilmiştir</string>
 </resources>

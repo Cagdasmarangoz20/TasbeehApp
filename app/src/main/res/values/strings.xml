@@ -4,6 +4,13 @@
     <string name="Sübhanallah">Sübhanallah</string>
     <string name="Elhamdülillah">Elhamdülillah</string>
     <string name="Allahu_ekber">Allahu ekber</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About the app</string>
+
+    <string name="about_description">Zikirmatik application is a practical tool that helps users count their dhikr. With its simple and useful interface, you can keep track of your dhikr by increasing the counter with each dhikr. Zikirmatik aims to support your spiritual life and make your worship more organised.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="e_mail">ranax.tec@gmail.com</string>
+    <string name="ideas">You can send us your ideas, suggestions and complaints</string>
+    <string name="version">Version</string>
+    <string name="developer">Developer</string>
+    <string name="developed">Developed by Ranax Technology</string>
 </resources>

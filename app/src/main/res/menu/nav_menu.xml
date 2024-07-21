@@ -4,5 +4,9 @@
     <item android:id="@+id/aboutid"
         android:title="About"
         app:showAsAction="never"/>
+    <item android:id="@+id/homeId"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"/>
 
 </menu>
